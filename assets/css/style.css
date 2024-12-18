@@ -220,11 +220,7 @@ header .navbar ul li a:hover {
   font-weight: 800;
   color: #002057;
 }
-.home .content h2 span {
-  font-size: 2rem;
-  font-weight: 800;
-  color: #ff7b00;
-}
+
 .home .content p {
   font-size: 2.5rem;
   color: #000;
@@ -259,63 +255,11 @@ header .navbar ul li a:hover {
   font-size: 1.5rem;
   transition: 0.3s;
 }
-.home .btn:hover {
-  background: #1a047e;
-}
-.home .btn:hover i {
-  transform: translateX(5px);
-}
-/* social icons start */
-.socials {
-  position: relative;
-  margin-top: 9rem;
-}
-.socials .social-icons {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-.socials .social-icons li {
-  display: inline-block;
-  margin-bottom: 14px;
-}
-.social-icons a {
-  font-size: 2rem;
-  display: inline-block;
-  line-height: 44px;
-  color: #00d9ff;
-  background-color: #09011b;
-  width: 44px;
-  height: 44px;
-  text-align: center;
-  margin-right: 8px;
-  border-radius: 100%;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-.social-icons a:active,
-.social-icons a:focus,
-.social-icons a:hover {
-  color: #fff;
-  background-color: #0685da;
-}
-.social-icons a.github:hover {
-  background-color: #0e0e0e;
-}
-.social-icons a.linkedin:hover {
-  background-color: #007bb6;
-}
-
-/* social icons end */
 
 /* hero media queries starts*/
 @media (max-width: 450px) {
   .home .btn {
     margin: 4rem 0;
-  }
-  .socials {
-    margin-top: 12rem;
   }
   .home .image img {
     margin-top: -12rem;
@@ -408,10 +352,6 @@ header .navbar ul li a:hover {
 .btn-about:hover {
     background-color: #600f31; /* Couleur légèrement plus foncée au survol */
 }
-
-
-
-
 
 .resumebtn {
   margin-top: 6rem;
@@ -806,8 +746,6 @@ header .navbar ul li a:hover {
   margin-right: 200px;
 }
 
-
-
 .experience details[open] summary {
     color: #b30047; /* Change la couleur lorsque ouvert */
     font-weight: bold;
@@ -851,10 +789,6 @@ header .navbar ul li a:hover {
   color: #333;
 }
 
-.experience .h2 {
-  font-size: 1.3rem;
-}
-
 
 
 
@@ -890,7 +824,7 @@ header .navbar ul li a:hover {
   z-index: -2;
 }
 .experience .container {
-  padding: 10px 40px;
+  padding: 10px 70px;
   position: relative;
   background-color: inherit;
   width: 50%;
@@ -902,7 +836,7 @@ header .navbar ul li a:hover {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: #e4cdd6;
+  background-color: #fdf2ff;
   border: 4px solid #9a184f;
   top: 15px;
   border-radius: 50%;
@@ -918,6 +852,7 @@ header .navbar ul li a:hover {
 .experience .right {
   left: 50%;
 }
+
 /* arrows pointing right */
 .experience .left::before {
   content: " ";
@@ -926,7 +861,7 @@ header .navbar ul li a:hover {
   top: 22px;
   width: 0;
   z-index: 1;
-  right: 30px;
+  right: 60px;
   border: medium solid #9a184f;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #9a184f;
@@ -939,7 +874,7 @@ header .navbar ul li a:hover {
   top: 22px;
   width: 0;
   z-index: 1;
-  left: 30px;
+  left: 60px;
   border: medium solid #9a184f;
   border-width: 10px 10px 10px 0;
   border-color: transparent #9a184f transparent transparent;
@@ -948,12 +883,15 @@ header .navbar ul li a:hover {
   left: -16px;
 }
 .experience .content {
-  background-color: #e4cdd6;
-  position: relative;
+  border-bottom: 3px solid #9a184f;
+  border-right: 1px solid #9a184f;
+  border-top: 1px solid #9a184f;
+  border-left: 1px solid #9a184f;
   border-radius: 6px;
+  position: relative;
 }
 .experience .content .tag {
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding-top: 1.5rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -968,40 +906,8 @@ header .navbar ul li a:hover {
   justify-content: center;
 }
 .experience .content .desc p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-bottom: -1.5rem;
-}
-/* view all button */
-.morebtn {
-  display: flex;
-  justify-content: center;
-}
-.morebtn .btn {
-  margin-top : 2rem;
-  position: relative;
-  line-height: 0;
-  padding: 1.6rem 3rem;
-  border-radius: 0.5em;
-  transition: 0.5s;
-  color: #fff;
-  background: #b02e65;
-  text-align: center;
-}
-.morebtn .btn span {
-  font-weight: 600;
-  font-size: 1.7rem;
-  font-family: "Nunito", sans-serif;
-}
-.morebtn .btn i {
-  margin-left: 0.3rem;
-  font-size: 1.5rem;
-  transition: 0.3s;
-}
-.morebtn .btn:hover {
-  background: #612c43;
-}
-.morebtn .btn:hover i {
-  transform: translateX(5px);
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -1039,141 +945,6 @@ header .navbar ul li a:hover {
 /* experience media queries ends */
 /* experience section ends */
 
-/* contact section starts */
-.contact {
-  background: #f8f9f9;
-  min-height: 60vh;
-}
-.contact .container {
-  max-width: 1050px;
-  width: 100%;
-  background: #fff;
-  border-radius: 1.5rem;
-  margin: 2rem 5rem;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-}
-.contact .container .content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2.5rem 2rem;
-}
-.contact .content .image-box {
-  max-width: 60%;
-  margin-left: 4rem;
-}
-.contact .content .image-box img {
-  width: 100%;
-  height: 40rem;
-  position: relative;
-}
-.contact .content form {
-  width: 100%;
-  margin-right: 5rem;
-}
-form .form-group {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.form-group .field {
-  height: 50px;
-  display: flex;
-  position: relative;
-  margin: 1rem;
-  width: 100%;
-}
-form i {
-  position: absolute;
-  top: 50%;
-  left: 18px;
-  color: rgb(51, 51, 51);
-  font-size: 17px;
-  pointer-events: none;
-  transform: translateY(-50%);
-}
-form .field input,
-form .message textarea {
-  width: 100%;
-  height: 100%;
-  outline: none;
-  padding: 0 16px 0 48px;
-  font-size: 16px;
-  font-family: "Poppins", sans-serif;
-  border-radius: 5px;
-  border: 1px solid rgb(51, 51, 51);
-  background: #f8f2f4;
-}
-.field input::placeholder,
-.message textarea::placeholder {
-  color: rgb(51, 51, 51);
-}
-.field input:focus,
-.message textarea:focus {
-  padding-left: 47px;
-  border: 2px solid rgb(115, 3, 167);
-}
-.field input:focus ~ i,
-.message textarea:focus ~ i {
-  color: rgb(115, 3, 167);
-}
-form .message {
-  position: relative;
-  margin: 1rem;
-  width: 100%;
-}
-form .message i {
-  top: 25px;
-  font-size: 20px;
-  left: 15px;
-}
-form .message textarea {
-  min-height: 130px;
-  max-height: 230px;
-  max-width: 100%;
-  min-width: 100%;
-  padding: 12px 20px 0 48px;
-}
-form .message textarea::-webkit-scrollbar {
-  width: 0px;
-}
-form .button-area {
-  display: flex;
-  float: right;
-  flex-direction: row-reverse;
-}
-.button-area button {
-  color: #fff;
-  border: none;
-  outline: none;
-  font-size: 1.8rem;
-  cursor: pointer;
-  border-radius: 5px;
-  padding: 13px 25px;
-  background: #9a184f;
-  box-shadow: 0px 5px 10px #600f31;;
-  transition: 0.3s ease;
-  font-family: "Nunito", sans-serif;
-}
-.button-area button:hover {
-  background: #600f31 ;
-}
-.button-area span {
-  font-size: 17px;
-  padding: 1rem;
-  display: none;
-}
-.button-area button i {
-  position: relative;
-  top: 6px;
-  left: 2px;
-  font-size: 1.5rem;
-  transition: 0.3s;
-  color: #fff;
-}
-.button-area button:hover i {
-  left: 8px;
-}
 /* footer section starts */
 .footer {
   min-height: auto;
