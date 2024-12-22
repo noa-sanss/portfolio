@@ -25,15 +25,20 @@
             <li><a href="#experience">Expériences</a></li>
             <li><a href="#work">Projets</a></li>
             <li><a href="#skills">Compétences</a></li>
-            <li><a href="#footer">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
 </header>
 
 <section class="home" id="home">
     <div class="content">
-    <h2>BIENVENUE !<br /><br />Découvrez mes projets Data Science</h2>
-    <a href="#about" class="btn-about">À propos <i class="fas fa-chevron-down"></i></a>
+        <h2>BIENVENUE !<br /><br />Découvrez mes projets Data Science</h2>
+        <h3>Retrouvez-moi sur :</h3>
+        <div class="share">
+              <a href="https://www.linkedin.com/in/noa-sans" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="https://github.com/noa-sanss" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+        </div>
+        <a href="#about" class="btn-about">À propos <i class="fas fa-chevron-down"></i></a>
     </div>
 </section>
 
@@ -42,33 +47,29 @@
 <!-- about section starts -->
 <section class="about" id="about">
     <h2 class="heading"><i class="fas fa-user-alt"></i> À propos </h2>
-    
     <div class="row">
+        <div class="image">
+            <img draggable="false" class="tilt" src="./noa.png" alt="">
+        </div>
+        <div class="content">
+            <h3>Je suis Noa Sans</h3>
+            <span class="tag">Étudiante en Master Data Science en Santé</span>
 
-    <div class="image">
-        <img draggable="false" class="tilt" src="./noa.png" alt="">
-    </div>
-    <div class="content">
-        <h3>Je suis Noa Sans</h3>
-        <span class="tag">Étudiante en Master Data Science en Santé</span>
-        
-        <p style="text-align: justify;">
-        Bienvenue sur mon portfolio ! Actuellement étudiante en Master Data Science appliquée à la santé, je combine ma passion pour l’analyse des données avec mon engagement envers le domaine médical. Mon parcours académique a débuté par une Licence en Santé Publique et Management des Organisations de Santé, où j’ai acquis des connaissances fondamentales en gestion et en systèmes de santé. En m’orientant vers la Data Science, j’ai choisi d’explorer comment les technologies et les données peuvent transformer les pratiques de santé et améliorer la prise de décision.</Br >Ce portfolio illustre mon parcours, mes projets, et les compétences que j’ai développées dans ce domaine en constante évolution.</p>
+            <p style="text-align: justify;">
+            Bienvenue sur mon portfolio !<br />Actuellement étudiante en Master Data Science appliquée à la santé, je combine mon intérêt pour l’analyse des données avec mon engagement envers le domaine médical. Mon parcours académique a débuté par une Licence en Santé Publique et Management des Organisations de Santé, où j’ai acquis des connaissances fondamentales en gestion et en systèmes de santé. En m’orientant vers la Data Science, j’ai choisi d’explorer comment les technologies et les données peuvent transformer les pratiques de santé et améliorer la prise de décision.</Br >Ce portfolio illustre mon parcours, mes projets, et les compétences que j’ai développées dans ce domaine en constante évolution.</p>
 
+            <div class="box-container">
+                <div class="box">
+                  <p>Email : <a href="mailto:noa.sans@yahoo.fr">noa.sans@yahoo.fr</a></p>
+                  <p>Téléphone : <a href="tel:+33686042329">06.86.04.23.29</a> </p>
+                </div>
+            </div>
 
-        <div class="box-container">
-            <div class="box">
-              <p>Email : <a href="mailto:noa.sans.etu@univ-lille.fr">noa.sans.etu@univ-lille.fr</a></p>
-              <p>Téléphone : 06.86.04.23.29</p>
+            <div class="resumebtn">
+            <a href="./static/CV%20Noa%20SANS.pdf" target="_blank" class="btn" >Voir mon CV <i class="fas fa-chevron-right"></i></a>
+
             </div>
         </div>
-
-        <div class="resumebtn">
-        <a href="./static/CV.pdf" target="_blank" class="btn" >Voir mon CV <i class="fas fa-chevron-right"></i></a>
-
-        </div>
-
-    </div>
     </div>
 </section>
 <!-- about section ends -->
@@ -289,7 +290,7 @@
   <div class="box-container">
 
     <div class="box tilt">
-      <img draggable="false" src="./projects/mbti%20(2).png" alt="" />
+      <img draggable="false" src="./projects/mbti%20(3).png" alt="" />
       <div class="content">
         <div class="tag">
         <h3>Corrélation posture et trait de personnalité</h3>
@@ -308,13 +309,13 @@
       <img draggable="false" src="./projects/recherchetsa.png" alt="" />
       <div class="content">
         <div class="tag">
-        <h3>Effets secondaires des traitements pharmacologiques pour les TSA infantiles</h3>
+        <h3>Side effects of pharmacological treatments for pediatric ASD</h3>
         </div>
         <div class="desc">
-          <p>L'objectif est d'identifier et d'analyser les tendances dans la recherche portant sur les traitements pharmacologiques dans le contexte de l'autisme infantile.</p>
+          <p>The objective is to identify and analyse trends in research focusing on pharmacological treatments in the context of childhood autism.</p>
           <div class="btns">
-            <a href="./projects/ABTSA.pdf" class="btn" target="_blank"><i class="fas fa-eye"></i> Voir</a>
-            <a href="https://github.com/noa-sanss" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+            <a href="./projects/rapportBA.pdf" class="btn" target="_blank"><i class="fas fa-eye"></i> Voir</a>
+            <a href="https://github.com/noa-sanss/bibliometric_analysis_ASD_treatments/blob/main/script.R" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
       </div>
@@ -324,7 +325,7 @@
       <img draggable="false" src="./projects/mtcars.png" alt="" />
       <div class="content">
         <div class="tag">
-        <h3>Analyse et segmentation des véhicules MTCARS</h3>
+        <h3>Analyse et segmentation des véhicules</h3>
         </div>
         <div class="desc">
           <p>L'objectif est d'analyser le jeu de données MTCARS pour identifier des relations entre les variables et regrouper des véhicules similaires.</p>
@@ -344,7 +345,7 @@
 
     <h2 class="heading"><i class="fas fa-laptop-code"></i> Compétences</h2>
 
-    <div class="container" id="skillsContainer">
+  <div class="container" id="skillsContainer">
 
     <!-- Compétences Techniques -->
     <div class="skills-category">
@@ -370,12 +371,6 @@
             </div>
             <div class="bar">
                 <div class="info">
-                    <img src="skills/github.png" alt="GitHub" />
-                    <span>GitHub</span>
-                </div>
-            </div>
-            <div class="bar">
-                <div class="info">
                     <img src="skills/office.png" alt="Suite Office" />
                     <span>Suite Office</span>
                 </div>
@@ -388,21 +383,21 @@
         <div class="row">
             <div class="bar">
                 <div class="info">
-                    <img src="skills/5.png" alt="Communication" />
-                    <span>Préparation et manipulation des données</span>
+                    <img src="skills/Image1.png" alt="Communication" />
+                    <span>Préparation<br />et manipulation</span>
                 </div>
             </div>
             <div class="bar">
                 <div class="info">
-                    <img src="skills/4.png" alt="Stats et modelisation" />
-                    <span>Analyse statistique et modélisation</span>
+                    <img src="skills/Image2.png" alt="Stats et modelisation" />
+                    <span>Analyse statistique<br />et modélisation</span>
                 </div>
             </div>
 
             <div class="bar">
                 <div class="info">
-                    <img src="skills/6.png" alt="Visualisation et comm" />
-                    <span>Visualisation et communication</span>
+                    <img src="skills/Image3.png" alt="Visualisation et comm" />
+                    <span>Visualisation<br />et communication</span>
                 </div>
             </div>
         </div>
@@ -410,41 +405,27 @@
         <!-- Compétences Interpersonnelles -->
         <h3>Compétences Interpersonnelles</h3>
         <div class="row">
+
             <div class="bar">
                 <div class="info">
-                    <img src="skills/communication.png" alt="Communication" />
-                    <span>Communication</span>
+                    <img src="skills/Image5.png" alt="Mise en oeuvre de projets" />
+                    <span>Gestion de projet</span>
                 </div>
             </div>
 
             <div class="bar">
                 <div class="info">
-                    <img src="skills/projets.png" alt="Mise en oeuvre de projets" />
-                    <span>Gestion de projets</span>
-                </div>
-            </div>
-
-            <div class="bar">
-                <div class="info">
-                    <img src="skills/teamwork.png" alt="Travail en équipe" />
+                    <img src="skills/Image6.png" alt="Travail en équipe" />
                     <span>Travail en équipe</span>
                 </div>
             </div>
         </div>
-    </div>
-
-
-    </div>
-
-</div>
-
-
-
+  </div>
 </section>
 <!-- skills section ends -->
 
 <!-- footer section starts -->
-<section class="footer" id="footer">
+<section class="footer" id="contact">
 
   <div class="box-container">
       <div class="box">
@@ -460,11 +441,12 @@
       <div class="box">
           <h3>Contact</h3>
           <p> <i class="fas fa-phone"></i>06.86.04.23.20</p>
-          <p> <i class="fas fa-envelope"></i>noa.sans.etu@univ-lille.fr</p>
+          <p> <i class="fas fa-envelope"></i>noa.sans@yahoo.fr</p>
           <div class="share">
               <a href="https://www.linkedin.com/in/noa-sans" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
-              <a href="https://gitlab.com/noa-sans" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
-              <a href="mailto:noa.sans.etu@univ-lille.fr" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+              <a href="https://github.com/noa-sanss" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+              <a href="mailto:noa.sans@yahoo.fr" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+              <a href="tel:+33686042329" class="fas fa-phone" aria-label="Phone" target="_blank"></a>
           </div>
       </div>
   </div>
