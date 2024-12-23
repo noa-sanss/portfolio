@@ -11,12 +11,6 @@ Ce portfolio a été créé pour plusieurs raisons :
 3. **Améliorer mes compétences** : Développer ce portfolio m'a permis de perfectionner mes compétences en développement web et d'explorer de nouvelles technologies.
 4. **Créer une présence en ligne** : Construire une identité numérique qui reflète mes capacités et mes intérêts professionnels.
 
-### Fonctionnalités
-- **Présentation personnelle** : Une introduction claire à propos de moi.
-- **Projets** : Une galerie interactive présentant les projets que j'ai réalisés.
-- **Compétences** : Une liste de mes compétences techniques et personnelles.
-- **Contact** : Un formulaire pour me contacter directement.
-
 ### Technologies utilisées
 Ce portfolio a été réalisé avec les technologies suivantes :
 - **HTML5** : Structure de la page.
