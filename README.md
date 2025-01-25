@@ -2,7 +2,7 @@
 
 ### À propos
 Bienvenue sur mon portfolio de Data Science ! Ce projet rassemble mes compétences, projets et expériences dans le domaine de la Data Science. Vous y trouverez une présentation des différentes facettes de mon parcours : de mes projets d'analyse de données à mes applications, en passant par mes formations et mes compétences techniques.
-Il est hébergé sur GitHub Pages et accessible via [le lien ici](https://noa-sanss.github.io/portfolio/).
+Il est hébergé sur GitHub Pages et accessible via le lien [ici](https://noa-sanss.github.io/portfolio/).
 
 ### Pourquoi ce portfolio ?
 Ce portfolio a été créé pour plusieurs raisons :
